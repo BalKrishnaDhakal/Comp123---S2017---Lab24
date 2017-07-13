@@ -10,9 +10,9 @@ using System.Threading.Tasks;
  */
 namespace Comp123___S2017___Lab24
 {/// <summary>
-/// This is the SupeHuman Class
-/// </summary>
-   public class SuperHuman : Human
+ /// This is the SupeHuman Class
+ /// </summary>
+    public class SuperHuman : Human
     {
         // PRIVATE INSTANCE VARIABLES
         // PUBLIC PROPERTIES
@@ -20,12 +20,11 @@ namespace Comp123___S2017___Lab24
         public SuperHuman(string name)
             : base(name)
         {
-        
-        }
-        
 
         }
+
         // PRIVATE METHODS
         // PUBLIC METHODS
     }
-}
+  }
+
