@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 /* Name: Bal Krishna Dhakal
  * Date: July 13, 2017
  * Description: This is the Super Human Class that extends the Human abstract class 
- * Version: 0.3 - Added power method
+ * Version: 0.4 - Added DisplayPowers method
  */
 namespace Comp123___S2017___Lab24
 {/// <summary>
@@ -56,6 +56,16 @@ namespace Comp123___S2017___Lab24
         public void AddPower(string name, int rank)
         {
             this.Powers.Add(new Power(name, rank));
+        }
+        /// <summary>
+        /// This method dispayes each of the powers stored in the Powers List
+        /// </summary>
+        public void DisplayPowers()
+        {
+            foreach(Power power in this.Powers)
+            {
+                Console.WriteLine("Power:" + power.Name + "Rank:" + power.Rank);
+            }
         }
     }
 }
