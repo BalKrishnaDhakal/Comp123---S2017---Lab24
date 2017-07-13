@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Comp123___S2017___Lab24
+namespace Comp123_S2017_Lab24
 {
-    public class SuperVillian
+    public class SuperVillian : SuperHuman, IHasMalice
     {
         // PRIVATE INSTANCE VARIABLES
-        private int _karma;
+        private int _malice;
         // PUBLIC PROPERTIES
-        public int Karma
+        public int Malice
         {
             get
             {
-                return this._karma;
+                return this._malice;
 
             }
             set
             {
-                this._karma = value;
+                this._malice = value;
 
             }
         }
@@ -30,10 +30,10 @@ namespace Comp123___S2017___Lab24
         /// It takes one argument - name(string)
         /// </summary>
         /// <param name="name"></param>
-        public SuperHero(string name, int karma)
+        public SuperVillian(string name, int malice)
             : base(name)
         {
-            this.Karma = karma;
+            this.Malice = malice;
 
         }
         // PRIVATE METHODS
