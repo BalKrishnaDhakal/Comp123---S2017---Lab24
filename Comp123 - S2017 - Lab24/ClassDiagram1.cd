@@ -8,11 +8,28 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Comp123___S2017___Lab24.SuperHuman">
-    <Position X="3.5" Y="2.25" Width="1.5" />
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAAAAIAAAAAAACAABAAAAAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Comp123___S2017___Lab24.Power">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Power.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Comp123___S2017___Lab24.IHasKarma">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasKarma.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
