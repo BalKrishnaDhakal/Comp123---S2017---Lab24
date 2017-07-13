@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Comp123_S2017_Lab24.SuperHuman">
-    <Position X="3.5" Y="1.75" Width="1.5" />
+    <Position X="3.75" Y="1.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -24,6 +24,21 @@
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Comp123_S2017_Lab24.SuperHero" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperHero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Comp123___S2017___Lab24.SuperVillian">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperVillian.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="Comp123_S2017_Lab24.IHasKarma">
     <Position X="6.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
@@ -34,7 +49,7 @@
   <Interface Name="Comp123_S2017_Lab24.IHasMalice">
     <Position X="8.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMalice.cs</FileName>
     </TypeIdentifier>
   </Interface>
