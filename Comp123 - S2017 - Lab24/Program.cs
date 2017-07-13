@@ -14,6 +14,7 @@ namespace Comp123___S2017___Lab24
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
