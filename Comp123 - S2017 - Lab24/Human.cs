@@ -7,7 +7,9 @@ using System.Threading.Tasks;
  * Date: July 13, 2017
  * Description: This is the Abstract Human Class
  * Version: 0.1 - Created the Abstract Human Class
+ * Git Link: https://github.com/BalKrishnaDhakal/Comp123-S2017-Lab24
  */
+ 
 namespace Comp123_S2017_Lab24
 {/// <summary>
  /// This is the abstract Human Class

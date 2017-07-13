@@ -7,7 +7,9 @@ using System.Threading.Tasks;
  * Date: July 13, 2017
  * Description: This is the Super Human Class that extends the Human abstract class 
  * Version: 0.4 - Added DisplayPowers method
+ * Git Link: https://github.com/BalKrishnaDhakal/Comp123-S2017-Lab24
  */
+ 
 namespace Comp123_S2017_Lab24
 {/// <summary>
  /// This is the SupeHuman Class

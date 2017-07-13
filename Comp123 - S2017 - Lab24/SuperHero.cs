@@ -9,7 +9,9 @@ using System.Threading.Tasks;
  * and implements the IHasKarma Interface
  * must be implemente in any class that subscribe to it
  * Version: 0.1 - Created the SuperHero Class
+ * Git Link: https://github.com/BalKrishnaDhakal/Comp123-S2017-Lab24
  */
+ 
 namespace Comp123_S2017_Lab24
 { /// <summary>
  /// This is the SuperHero Class

@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+ /*Name: Bal Krishna Dhakal
+ * Date: July 13, 2017
+ * Description: 
+ * Version: 0.1 - Created the SuperVillian Class
+ * Git Link: https://github.com/BalKrishnaDhakal/Comp123-S2017-Lab24
+ */
+ 
 namespace Comp123_S2017_Lab24
 {
     public class SuperVillian : SuperHuman, IHasMalice

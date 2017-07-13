@@ -7,7 +7,9 @@ using System.Text;
  * Description: This is an Interface that defines a Karma Property that 
  * must be implemente in any class that subscribe to it 
  * Version: 0.1 - Created IHasKarma Interface
+ * Git Link: https://github.com/BalKrishnaDhakal/Comp123-S2017-Lab24
  */
+ 
 namespace Comp123_S2017_Lab24
 {
     /// <summary>

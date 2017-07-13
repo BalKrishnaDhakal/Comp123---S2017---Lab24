@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 /* Name: Bal Krishna Dhakal
  * Date: July 13, 2017
  * Version: 0.2 - Added a the Constructor
+ * Git Link: https://github.com/BalKrishnaDhakal/Comp123-S2017-Lab24
  */
+ 
 namespace Comp123_S2017_Lab24
 {
     /// <summary>
