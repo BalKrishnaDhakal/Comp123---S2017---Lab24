@@ -17,6 +17,16 @@ namespace Comp123___S2017___Lab24
         // PRIVATE INSTANCE VARIABLES
         private List<Power> _powers;
         // PUBLIC PROPERTIES
+        public List<Power> Powers
+        {
+            get
+            {
+                return this._powers; // this reference
+
+            }
+           
+        }
+            
         // CONSTRUCTORS
         /// <summary>
         /// This is the main constructor for the superHuman Class.

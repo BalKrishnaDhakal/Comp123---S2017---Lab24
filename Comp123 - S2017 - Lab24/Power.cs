@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 /* Name: Bal Krishna Dhakal
  * Date: July 13, 2017
- * Version: 0.1 - Created the Power Class
+ * Version: 0.2 - Added a the Constructor
  */
 namespace Comp123___S2017___Lab24
 {
@@ -16,6 +16,18 @@ namespace Comp123___S2017___Lab24
     {
         // PUBLIC PROPERTIES
         public string Name { get; set; }
-        // CONSTRUCTORS
+        public int Rank { get; set; }
+        // CONSTRUCTORS---------------------
+        /// <summary>
+        /// this is the main constructor for the power class
+        /// It takes two arguments - name (string) - rank (int)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public Power(string name, int rank)
+        {
+            this.Name = name;
+            this.Rank = rank;
+        }
     }
 }
