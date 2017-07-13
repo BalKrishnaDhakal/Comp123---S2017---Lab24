@@ -7,7 +7,7 @@ using System.Threading.Tasks;
  * Date: July 13, 2017
  * Version: 0.2 - Added a the Constructor
  */
-namespace Comp123___S2017___Lab24
+namespace Comp123_S2017_Lab24
 {
     /// <summary>
     /// This is the Power class which will be used as a Data type

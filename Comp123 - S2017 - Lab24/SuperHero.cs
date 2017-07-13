@@ -10,11 +10,11 @@ using System.Threading.Tasks;
  * must be implemente in any class that subscribe to it
  * Version: 0.1 - Created the SuperHero Class
  */
-namespace Comp123___S2017___Lab24
-{/// <summary>
-/// This is theSuper Hero Class
-/// </summary>
-   public class SuperHero : SuperHuman,IHasKarma
+namespace Comp123_S2017_Lab24
+{ /// <summary>
+ /// This is the SuperHero Class
+ /// </summary>
+    public class SuperHero : SuperHuman,IHasKarma
     {
         // PRIVATE INSTANCE VARIABLES
         private int _karma;
@@ -39,9 +39,10 @@ namespace Comp123___S2017___Lab24
         /// It takes one argument - name(string)
         /// </summary>
         /// <param name="name"></param>
-        public SuperHero(string name)
+        public SuperHero(string name, int karma)
             : base(name)
         {
+            this.Karma = karma;
 
         }
         // PRIVATE METHODS

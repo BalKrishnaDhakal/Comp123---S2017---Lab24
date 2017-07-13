@@ -8,7 +8,7 @@ using System.Text;
  * must be implemente in any class that subscribe to it 
  * Version: 0.1 - Created IHasKarma Interface
  */
-namespace Comp123___S2017___Lab24
+namespace Comp123_S2017_Lab24
 {
     /// <summary>
     ///  This is the IHasKarma Interface

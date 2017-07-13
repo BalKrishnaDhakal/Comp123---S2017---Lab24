@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Description: This is the Super Human Class that extends the Human abstract class 
  * Version: 0.4 - Added DisplayPowers method
  */
-namespace Comp123___S2017___Lab24
+namespace Comp123_S2017_Lab24
 {/// <summary>
  /// This is the SupeHuman Class
  /// </summary>
@@ -41,6 +41,9 @@ namespace Comp123___S2017___Lab24
         }
 
         // PRIVATE METHODS
+        /// <summary>
+        /// This method initialize and assign default values to class Fields
+        /// </summary>
         private void _initialize()
         {
             this._powers = new List<Power>();// create a empty list
@@ -62,10 +65,39 @@ namespace Comp123___S2017___Lab24
         /// </summary>
         public void DisplayPowers()
         {
+            foreach(var power in this.Powers)
+            {
+                Console.WriteLine("Name:" + power.Name + "Rank:" + power.Rank);
+            }
+        }
+        // PUBLIC OVERRIDDEN METHODS
+        /// <summary>
+        /// Overridden the build in ToString method
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "================================================\n";
+            outputString += " SuperHuman Name:" + this.Name + "\n";
+            outputString += "================================================\n";
+
             foreach(Power power in this.Powers)
             {
-                Console.WriteLine("Power:" + power.Name + "Rank:" + power.Rank);
+                outputString += "Power:" + power.Name + "Rank:" + power.Rank + "\n";
+
             }
+            outputString += "================================================\n";
+
+            return outputString;
+        }
+        /// <summary>
+        /// This is the DisplaySkills Method
+        /// Need to be Implemented
+        /// </summary>
+        public override void DisplaySkills() 
+        {
+            Console.WriteLine("Not Implemented!");
         }
     }
 }

@@ -8,11 +8,11 @@ using System.Threading.Tasks;
  * Description: This is the Abstract Human Class
  * Version: 0.1 - Created the Abstract Human Class
  */
-namespace Comp123___S2017___Lab24
+namespace Comp123_S2017_Lab24
 {/// <summary>
-/// This is the abstract Human Class
-/// </summary>
-  public  abstract class Human
+ /// This is the abstract Human Class
+ /// </summary>
+    public  abstract class Human
     {
         // PRIVATE INSTANCE VARIABLES(FIELDS)
         public String _name;
@@ -41,6 +41,7 @@ namespace Comp123___S2017___Lab24
         }
         // PRIVATE METHODS
         // public METHODS
+        public abstract void DisplaySkills();
 
     }
 }
