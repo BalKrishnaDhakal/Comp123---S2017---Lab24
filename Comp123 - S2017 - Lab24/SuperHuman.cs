@@ -24,7 +24,6 @@ namespace Comp123_S2017_Lab24
                 return this._powers; // this reference
 
             }
-           
         }
             
         // CONSTRUCTORS
@@ -37,7 +36,6 @@ namespace Comp123_S2017_Lab24
             : base(name)
         {
             this._initialize();
-
         }
 
         // PRIVATE METHODS
@@ -67,7 +65,7 @@ namespace Comp123_S2017_Lab24
         {
             foreach(var power in this.Powers)
             {
-                Console.WriteLine("Name:" + power.Name + "Rank:" + power.Rank);
+                Console.WriteLine("Name: " + power.Name + " Rank:" + power.Rank);
             }
         }
         // PUBLIC OVERRIDDEN METHODS
@@ -84,7 +82,7 @@ namespace Comp123_S2017_Lab24
 
             foreach(Power power in this.Powers)
             {
-                outputString += "Power:" + power.Name + "Rank:" + power.Rank + "\n";
+                outputString += "Power:" + power.Name + " Rank:" + power.Rank + "\n";
 
             }
             outputString += "================================================\n";
